@@ -38,3 +38,11 @@ dependencies {
 
 #### set main java program to start the application
 mainClassName = 'com.demo.GradleDemo'
+
+
+### How to Run application with out gradle installation
+Gradle wrapper is used to run the application with out having gradle on local system.
+Run below
+#### gradle wrapper
+#### gradlew build
+#### gradle run
