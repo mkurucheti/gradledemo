@@ -1,0 +1,12 @@
+apply plugin : 'application'
+
+sourceSets.main.java.srcDirs = ['src']
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile "joda-time:joda-time:2.2"
+}
+mainClassName = 'com.demo.GradleDemo'
